@@ -1,9 +1,13 @@
 @if (countries) {
+<h1>Galytix Weather App</h1>
 <ul>
   @for (country of countries.data; track country.country) {
-  <li>
-    <a routerLink="{{ country.country }}">{{ country.country }}</a>
-  </li>
+  <div class="gridbox">
+    <li>
+      <a routerLink="{{ country.country }}">{{ country.country }}</a>
+    </li>
+  </div>
+
   }
 </ul>
 } @else {

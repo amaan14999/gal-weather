@@ -3,6 +3,10 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 export type WeatherResponse = {
+  weather: {
+    main: string;
+    icon: string;
+  }[];
   main: {
     temp: number;
     humidity: number;

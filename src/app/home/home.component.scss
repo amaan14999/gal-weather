@@ -1,0 +1,37 @@
+ul {
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+li {
+  list-style-type: none;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  overflow: hidden; /* Hide overflow */
+  text-align: center; /* Center text */
+  word-wrap: break-word; /* Break long words */
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.gridbox {
+  display: grid;
+  background-color: rgba(51, 50, 50, 0.5);
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(150px, 1fr)
+  ); /* Adjust the minmax values as needed */
+  grid-gap: 10px; /* Adjust the grid gap as needed */
+  // padding: 10px;
+  border: 1px solid white;
+  margin: 10px;
+  border-radius: 1rem;
+}
