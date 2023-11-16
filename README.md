@@ -1,27 +1,59 @@
-# GalWeather
+# Galytix Weather App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+## Overview
 
-## Development server
+This Angular Weather App provides real-time weather updates for various locations. Built with Angular, it leverages open weather APIs to fetch and display weather data.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Live
 
-## Code scaffolding
+Navigate to [Galytix Weather App](https://gal-weather.pages.dev/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- Real-time weather updates
+- Search functionality for global locations
+- Responsive design for desktop and mobile devices
+- Dark and light mode
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Prerequisites
 
-## Running unit tests
+Before setting up the project, ensure you have the following installed:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js (Version 12 or later)
+- Yarn package manager
+- Angular CLI
 
-## Running end-to-end tests
+## Installing Yarn (\*\*only if not installed already)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The Yarn maintainers recommend installing Yarn globally by using the NPM package manager, which is included by default with all Node.js installations. Use the -g flag with npm install to do this:
 
-## Further help
+```bash
+sudo npm install -g yarn
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+After the package installs, have the yarn command print its own version number. This will let you verify it was installed properly:
+
+```bash
+yarn --version
+```
+
+## Setting Up the Development Environment
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/amaan14999/gal-weather.git
+   cd gal-weather
+   ```
+
+2. **Install Dependencies**
+
+   ```bash
+   yarn
+   ```
+
+3. **Run the Application**
+
+   ```bash
+   yarn start
+   ```
