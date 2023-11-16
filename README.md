@@ -11,9 +11,6 @@ Navigate to [Galytix Weather App](https://gal-weather.pages.dev/)
 ## Features
 
 - Real-time weather updates
-- Search functionality for global locations
-- Responsive design for desktop and mobile devices
-- Dark and light mode
 
 ## Prerequisites
 
