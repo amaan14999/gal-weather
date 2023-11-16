@@ -1,0 +1,11 @@
+@if (countries) {
+<ul>
+  @for (country of countries.data; track country.country) {
+  <li>
+    <a routerLink="{{ country.country }}">{{ country.country }}</a>
+  </li>
+  }
+</ul>
+} @else {
+<div>Loading</div>
+}
